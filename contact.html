@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>お問い合わせ | 宮崎かわごえ産業医事務所</title>
+  <meta name="description" content="産業医契約や顧問医契約、健康診断の事後措置などに関するご相談・ご質問はこちら。宮崎かわごえ産業医事務所。">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <div class="logo">
+        <a href="index.html">
+          <span class="logo-main">宮崎かわごえ産業医事務所</span>
+          <span class="logo-sub">職場の健康と安全を支援</span>
+        </a>
+      </div>
+      <button class="menu-toggle" aria-label="メニューを開く">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="nav">
+        <ul>
+          <li><a href="index.html">ホーム</a></li>
+          <li><a href="greeting.html">ごあいさつ</a></li>
+          <li><a href="about.html">産業医とは</a></li>
+          <li><a href="services.html">事業内容</a></li>
+          <li><a href="news.html">ニュース</a></li>
+          <li><a href="contact.html" class="nav-cta active">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <h1>お問い合わせ</h1>
+      <p>宮崎の産業医サービス</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="prose">
+        <p class="lead-text">産業医契約や顧問医契約、健康診断の事後措置などに関するご相談やご質問は、下記までお気軽にお問い合わせください。宮崎市を中心に地域の企業様をサポートいたします。</p>
+        <h3>対応可能なご相談例</h3>
+        <ul>
+          <li>産業医・顧問医契約についてのご相談</li>
+          <li>復職や休職に関する面談依頼</li>
+          <li>衛生委員会運営や職場巡視について</li>
+          <li>健康診断結果に基づく医師面談のご相談</li>
+          <li>社会保険労務士との連携に関するお問い合わせ</li>
+        </ul>
+        <p>迅速かつ丁寧にご対応いたします。</p>
+      </div>
+
+      <div class="contact-wrapper">
+        <form class="contact-form" id="contactForm" action="https://formspree.io/f/mgonokoa" method="POST">
+          <div class="form-group">
+            <label for="name">お名前 <span class="required">必須</span></label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">メールアドレス <span class="required">必須</span></label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">電話番号</label>
+            <input type="tel" id="phone" name="phone">
+          </div>
+          <div class="form-group">
+            <label for="message">メッセージ <span class="required">必須</span></label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+          </div>
+          <div class="form-group">
+            <label class="checkbox-label">
+              <input type="checkbox" required>
+              プライバシーポリシーを読み同意します。
+            </label>
+          </div>
+          <button type="submit" class="btn btn-primary btn-submit">送信する</button>
+        </form>
+      </div>
+
+      <div class="company-info">
+        <h3>会社概要</h3>
+        <table class="info-table">
+          <tr><th>事業所名</th><td>宮崎かわごえ産業医事務所（株式会社DRK企画運営）</td></tr>
+          <tr><th>所在地</th><td>〒880-0021 宮崎市清水3-8-14</td></tr>
+          <tr><th>設立</th><td>令和3年12月2日</td></tr>
+          <tr><th>メール</th><td>kentaro@kawagoe-sangyoui.com</td></tr>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-info">
+          <div class="footer-logo">宮崎かわごえ産業医事務所</div>
+          <p>株式会社DRK企画運営</p>
+          <p>〒880-0021 宮崎市清水3-8-14</p>
+          <p>TEL: 080-8517-6619</p>
+          <p>Mail: kentaro@kawagoe-sangyoui.com</p>
+        </div>
+        <div class="footer-nav">
+          <ul>
+            <li><a href="index.html">ホーム</a></li>
+            <li><a href="greeting.html">ごあいさつ</a></li>
+            <li><a href="about.html">産業医とは</a></li>
+            <li><a href="services.html">事業内容</a></li>
+            <li><a href="news.html">ニュース</a></li>
+            <li><a href="contact.html">お問い合わせ</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 宮崎かわごえ産業医事務所｜宮崎市で産業医・顧問医サービスを提供しています。</p>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

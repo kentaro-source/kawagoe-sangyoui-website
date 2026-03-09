@@ -572,6 +572,333 @@ textarea {
   font-size: 12px;
 }
 
+/* ===== Page Hero ===== */
+.page-hero {
+  background: linear-gradient(135deg, #1a5c3a 0%, #2e8b57 50%, #3a9d6a 100%);
+  padding: 100px 0 48px;
+  margin-top: 72px;
+  color: #fff;
+}
+
+.page-hero h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.page-hero p {
+  font-size: 16px;
+  opacity: 0.9;
+}
+
+/* ===== Prose ===== */
+.prose {
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+.prose h2 {
+  font-size: 22px;
+  color: var(--primary-dark);
+  margin: 40px 0 16px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--primary-light);
+}
+
+.prose h2:first-child {
+  margin-top: 0;
+}
+
+.prose h3 {
+  font-size: 18px;
+  color: var(--primary);
+  margin: 28px 0 12px;
+}
+
+.prose p {
+  margin-bottom: 16px;
+  color: var(--text-light);
+  line-height: 1.9;
+}
+
+.prose ul {
+  margin: 0 0 20px 20px;
+  color: var(--text-light);
+}
+
+.prose ul li {
+  margin-bottom: 8px;
+  line-height: 1.7;
+}
+
+.lead-text {
+  font-size: 16px;
+  color: var(--text) !important;
+  line-height: 1.9;
+  margin-bottom: 32px !important;
+}
+
+.note-text {
+  font-size: 14px;
+  color: var(--accent) !important;
+}
+
+/* ===== Hero Note ===== */
+.hero-note {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 24px;
+}
+
+.hero-note a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* ===== Card Grid ===== */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.link-card {
+  background: var(--bg);
+  padding: 32px 28px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.link-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-hover);
+}
+
+.link-card h3 {
+  font-size: 18px;
+  color: var(--primary-dark);
+  margin-bottom: 10px;
+}
+
+.link-card p {
+  font-size: 14px;
+  color: var(--text-light);
+  line-height: 1.7;
+  margin-bottom: 16px;
+}
+
+.card-link {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--primary);
+}
+
+.card-link:hover {
+  color: var(--primary-dark);
+}
+
+/* ===== Price Table ===== */
+.price-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0 24px;
+  background: var(--bg);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.price-table th,
+.price-table td {
+  padding: 14px 20px;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+  font-size: 15px;
+}
+
+.price-table thead th {
+  background: var(--primary);
+  color: #fff;
+  font-weight: 600;
+}
+
+.price-table tbody td:last-child {
+  font-weight: 600;
+  color: var(--primary-dark);
+}
+
+/* ===== Service Detail ===== */
+.service-detail {
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+.service-detail h2 {
+  font-size: 22px;
+  color: var(--primary-dark);
+  margin-bottom: 16px;
+}
+
+.service-num {
+  color: var(--accent);
+  margin-right: 4px;
+}
+
+.service-detail h3 {
+  font-size: 17px;
+  color: var(--primary);
+  margin: 24px 0 12px;
+}
+
+.service-detail p {
+  color: var(--text-light);
+  line-height: 1.8;
+  margin-bottom: 12px;
+}
+
+.service-detail ul {
+  margin: 0 0 20px 20px;
+  color: var(--text-light);
+}
+
+.service-detail ul li {
+  margin-bottom: 8px;
+  line-height: 1.7;
+}
+
+/* ===== CTA Box ===== */
+.cta-box {
+  text-align: center;
+  padding: 40px;
+  margin-top: 48px;
+  background: var(--primary-light);
+  border-radius: var(--radius);
+}
+
+.cta-box p {
+  margin-bottom: 20px;
+  color: var(--text);
+}
+
+/* ===== FAQ ===== */
+.faq-list {
+  max-width: 780px;
+  margin: 32px auto 0;
+}
+
+.faq-item {
+  background: var(--bg);
+  padding: 24px 28px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  margin-bottom: 16px;
+}
+
+.faq-q {
+  font-size: 16px;
+  color: var(--primary-dark);
+  margin-bottom: 10px;
+}
+
+.faq-a {
+  font-size: 15px;
+  color: var(--text-light);
+  line-height: 1.7;
+}
+
+/* ===== News List ===== */
+.news-list {
+  max-width: 780px;
+  margin: 32px auto;
+}
+
+.news-item {
+  padding: 24px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.news-item:first-child {
+  padding-top: 0;
+}
+
+.news-date {
+  display: inline-block;
+  background: var(--primary);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.news-item h3 {
+  font-size: 17px;
+  color: var(--primary-dark);
+  margin-bottom: 8px;
+}
+
+.news-item p {
+  font-size: 14px;
+  color: var(--text-light);
+  line-height: 1.7;
+}
+
+/* ===== Company Info ===== */
+.company-info {
+  max-width: 680px;
+  margin: 48px auto 0;
+}
+
+.company-info h3 {
+  font-size: 20px;
+  color: var(--primary-dark);
+  margin-bottom: 16px;
+}
+
+.info-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.info-table th,
+.info-table td {
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border);
+  font-size: 14px;
+  text-align: left;
+}
+
+.info-table th {
+  width: 140px;
+  font-weight: 600;
+  color: var(--text);
+  background: var(--bg-alt);
+}
+
+.info-table td {
+  color: var(--text-light);
+}
+
+/* ===== Checkbox ===== */
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.checkbox-label input[type="checkbox"] {
+  width: auto;
+}
+
+/* ===== Nav Active ===== */
+.nav a.active {
+  color: var(--primary);
+  font-weight: 700;
+}
+
 /* ===== Responsive ===== */
 @media (max-width: 768px) {
   .sp-only {
@@ -649,8 +976,23 @@ textarea {
   }
 
   .about-points,
-  .services-grid {
+  .services-grid,
+  .card-grid {
     grid-template-columns: 1fr;
+  }
+
+  .page-hero {
+    padding: 88px 0 36px;
+  }
+
+  .page-hero h1 {
+    font-size: 24px;
+  }
+
+  .price-table th,
+  .price-table td {
+    padding: 10px 12px;
+    font-size: 13px;
   }
 
   .needs-grid {
