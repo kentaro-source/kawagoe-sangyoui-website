@@ -597,6 +597,15 @@ textarea {
   margin: 0 auto;
 }
 
+.prose a {
+  color: var(--primary);
+  text-decoration: underline;
+}
+
+.prose a:hover {
+  color: var(--primary-dark);
+}
+
 .prose h2 {
   font-size: 22px;
   color: var(--primary-dark);
